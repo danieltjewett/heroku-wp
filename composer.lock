@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a335829e5baae4e8249ca6ced380ec9",
+    "content-hash": "56a7532c68f47709ba6516545b5865fc",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3481,6 +3481,46 @@
             "time": "2018-10-03T10:40:09+00:00"
         },
         {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/email-subscribers",
+            "version": "3.5.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/email-subscribers/",
+                "reference": "tags/3.5.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/email-subscribers.3.5.14.zip",
+                "reference": "tags/3.5.14",
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/email-subscribers/"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "6.6.1",
             "source": {
@@ -3491,7 +3531,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/jetpack.6.6.1.zip",
-                "reference": null,
+                "reference": "tags/6.6.1",
                 "shasum": null
             },
             "require": {
@@ -3511,7 +3551,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/redis-cache.1.3.8.zip",
-                "reference": null,
+                "reference": "tags/1.3.8",
                 "shasum": null
             },
             "require": {
@@ -3531,7 +3571,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/secure-db-connection.1.1.6.zip",
-                "reference": null,
+                "reference": "tags/1.1.6",
                 "shasum": null
             },
             "require": {
@@ -3551,7 +3591,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/sendgrid-email-delivery-simplified.1.11.8.zip",
-                "reference": null,
+                "reference": "tags/1.11.8",
                 "shasum": null
             },
             "require": {
