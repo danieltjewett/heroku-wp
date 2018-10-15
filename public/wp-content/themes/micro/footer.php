@@ -17,7 +17,7 @@
 		<div class="row">
 			<div class="columns small-12">
 				<div class="site-info">
-					&#169;Copyright <?php date('Y'); ?> Dan Jewett 
+					&#169;Copyright <?php echo date('Y'); ?> Dan Jewett 
 					<span class="sep"> | </span>
 					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'micro' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'micro' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
