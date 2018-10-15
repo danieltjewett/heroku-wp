@@ -1,5 +1,8 @@
 <?php
 
+update_option( 'siteurl', 'http://violetthegame.herokuapp.com' );
+update_option( 'home', 'http://violetthegame.herokuapp.com' );
+
 /*
  * @package Zombie Apocalypse
  * @since Zombie Apocalypse 2.0
