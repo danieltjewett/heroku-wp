@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "56a7532c68f47709ba6516545b5865fc",
+    "content-hash": "c1fcfee20fc79cf8fc4c10c4d8e85810",
     "packages": [
         {
             "name": "WordPress/WordPress",
@@ -3491,7 +3491,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.4.zip",
-                "reference": null,
+                "reference": "tags/5.0.4",
                 "shasum": null
             },
             "require": {
@@ -3499,6 +3499,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/display-posts-shortcode",
+            "version": "2.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/display-posts-shortcode/",
+                "reference": "tags/2.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/display-posts-shortcode.2.9.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/display-posts-shortcode/"
         },
         {
             "name": "wpackagist-plugin/email-subscribers",
