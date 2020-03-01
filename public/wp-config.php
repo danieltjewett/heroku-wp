@@ -238,6 +238,8 @@ if ( isset( $_ENV['WP_DEBUG'] ) && 'TRUE' == $_ENV['WP_DEBUG'] ) {
 	define( 'WP_DEBUG', false );
 }
 
+error_reporting(E_ERROR | E_PARSE);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
