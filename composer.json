@@ -39,7 +39,7 @@
         {
             "type": "package",
             "package": {
-                "name": "WordPress/WordPress",
+                "name": "wordpress/wordpress",
                 "version": "4.9.7",
                 "dist": {
                     "type": "zip",
