@@ -7,7 +7,7 @@
     "content-hash": "c1fcfee20fc79cf8fc4c10c4d8e85810",
     "packages": [
         {
-            "name": "WordPress/WordPress",
+            "name": "wordpress/wordpress",
             "version": "4.9.7",
             "dist": {
                 "type": "zip",
