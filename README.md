@@ -8,7 +8,7 @@ Spin Up a Demo
 
 Want to give it a try first? Deploy a demo to your account:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/danieltjewett/heroku-wp/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/danieltjewett/heroku-wp/tree/major-updates)
 
 _For production setups it's highly recommended to follow the instructions below to properly install and version control with your own repo._
 
@@ -22,7 +22,6 @@ The repository is built on top of the standard Heroku PHP buildpack so you don't
 
 Heroku WP uses the following addons:
 * [MariaDB](https://mariadb.org) / [jawsdb-maria](https://elements.heroku.com/addons/jawsdb-maria) - A binary compatible MySQL replacement with even better performance.
-* [Redis](http://redis.io) / [heroku-redis](https://elements.heroku.com/addons/heroku-redis) - An in-memory datastore for fast persistant object cache.
 * [New Relic](https://newrelic.com) / [newrelic](https://elements.heroku.com/addons/newrelic) - SaaS application performance monitoring.
 
 And optionally the following addons:
