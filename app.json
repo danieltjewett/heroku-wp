@@ -79,11 +79,15 @@
   },
   "addons": [
     {
+      "plan": "heroku-redis:mini"
+    },
+    {
       "plan": "jawsdb-maria:kitefin",
       "as": "WP_DB"
     },
     {
       "plan": "newrelic:wayne"
     }
-  ]
+  ],
+  "stack": "heroku-22"
 }
