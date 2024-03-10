@@ -13,23 +13,22 @@
     ],
     "require": {
         "ext-gd": "*",
-        "php": "7.*",
+        "php": "8.*",
 
         "wordpress/wordpress": "*",
 
         "automattic/batcache": "dev-master",
-        "wpackagist-plugin/redis-cache": "~1",
+        "wpackagist-plugin/redis-cache": "~2.5",
         "wpackagist-plugin/secure-db-connection": "~1",
 
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
-        "wpackagist-plugin/sendgrid-email-delivery-simplified": "~1",
 
-        "predis/predis": "~1.0",
+        "predis/predis": "~2.0",
         "wp-cli/wp-cli": "^1.0",
-        "wpackagist-plugin/email-subscribers": "^3.5",
-        "wpackagist-plugin/contact-form-7": "^5.0",
-        "wpackagist-plugin/display-posts-shortcode": "^2.9"
+        "wpackagist-plugin/email-subscribers": "^5.7",
+        "wpackagist-plugin/contact-form-7": "^5.8",
+        "wpackagist-plugin/display-posts-shortcode": "^3.0"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
@@ -40,10 +39,10 @@
             "type": "package",
             "package": {
                 "name": "wordpress/wordpress",
-                "version": "4.9.7",
+                "version": "6.4.3",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.9.7.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/6.4.3.zip"
                 }
             }
         },
@@ -75,5 +74,10 @@
         "post-install-cmd": [
             "./support/app_slug_compile.sh"
         ]
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": false
+        }
     }
 }
