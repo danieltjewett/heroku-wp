@@ -24,10 +24,10 @@
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/post-smtp":"~2",
+        "wpackagist-plugin/smtp-mailer":"~1",
 
         "predis/predis": "~1",
         "wp-cli/wp-cli-bundle": "*",
-        "wpackagist-plugin/email-subscribers": "^5.7",
         "wpackagist-plugin/contact-form-7": "^5.8",
         "wpackagist-plugin/display-posts-shortcode": "^3.0",
         "wpackagist-plugin/wordpress-importer": "^0.8"
