@@ -17,7 +17,7 @@
 		<div class="row">
 			<div class="columns small-12">
 				<div class="site-info">
-					&#169;Copyright <?php echo date('Y'); ?> Dan Jewett 
+					&#169;Copyright <?php echo date('Y'); ?> Last Life Studios, LLC
 					<span class="sep"> | </span>
 					<a href="/privacy">Privacy Policy</a>
 				</div><!-- .site-info -->

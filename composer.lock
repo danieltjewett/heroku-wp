@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f5b4a5f125ef73dcd30ffb69a3426452",
+    "content-hash": "78db42c242f2fb28b7c351588dd6b475",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -4876,24 +4876,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/"
-        },
-        {
-            "name": "wpackagist-plugin/post-smtp",
-            "version": "2.8.11",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/post-smtp/",
-                "reference": "tags/2.8.11"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/post-smtp.2.8.11.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/post-smtp/"
         },
         {
             "name": "wpackagist-plugin/redis-cache",
