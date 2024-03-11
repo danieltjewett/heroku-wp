@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "608eac2c59a56d1c597ceefa8fb9e622",
+    "content-hash": "f3bc88dfca6fa0f7b0f8d6579c36f653",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -2701,10 +2701,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "6.4.2",
+            "version": "6.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/wordpress/wordpress/archive/6.4.2.zip"
+                "url": "https://github.com/wordpress/wordpress/archive/6.4.3.zip"
             },
             "type": "library"
         },
@@ -4948,6 +4948,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/secure-db-connection/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
         }
     ],
     "packages-dev": [],
