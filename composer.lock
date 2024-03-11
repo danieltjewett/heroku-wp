@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "61004a17e61e90e773795f66cddf8688",
+    "content-hash": "f13bb8b0ef2af265bbe6f8eda8d1646e",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -93,16 +93,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.300.14",
+            "version": "3.300.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f1e0c37d8403d7097c2c808c184137e6517d54be"
+                "reference": "0cd194438b84588615121a93d0bc46bf55ca678b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f1e0c37d8403d7097c2c808c184137e6517d54be",
-                "reference": "f1e0c37d8403d7097c2c808c184137e6517d54be",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/0cd194438b84588615121a93d0bc46bf55ca678b",
+                "reference": "0cd194438b84588615121a93d0bc46bf55ca678b",
                 "shasum": ""
             },
             "require": {
@@ -182,9 +182,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.14"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.300.15"
             },
-            "time": "2024-03-08T19:05:39+00:00"
+            "time": "2024-03-11T18:33:13+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1507,33 +1507,23 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "3.0.7",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/S3-Uploads.git",
-                "reference": "b65f2c73ca8b248232407bbe0db93e6b728ed0ee"
+                "reference": "3b995ba6d1ccde4354efb9564c3e244f871bbcda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/b65f2c73ca8b248232407bbe0db93e6b728ed0ee",
-                "reference": "b65f2c73ca8b248232407bbe0db93e6b728ed0ee",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/3b995ba6d1ccde4354efb9564c3e244f871bbcda",
+                "reference": "3b995ba6d1ccde4354efb9564c3e244f871bbcda",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "~3.18",
-                "composer/installers": "~1.0 || ^2.0"
-            },
-            "require-dev": {
-                "humanmade/psalm-plugin-wordpress": "^1.0",
-                "pcov/clobber": "^2.0",
-                "phpunit/phpunit": "7.5"
+                "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "./inc"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -1554,7 +1544,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2023-05-04T08:22:25+00:00"
+            "time": "2021-03-18T10:55:13+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
