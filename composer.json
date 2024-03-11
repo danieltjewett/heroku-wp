@@ -21,8 +21,8 @@
         "wpackagist-plugin/redis-cache": "~1",
         "wpackagist-plugin/secure-db-connection": "~1",
 
-        "humanmade/s3-uploads": "~2",
-        "wpackagist-plugin/jetpack": "*",
+        "humanmade/s3-uploads": "~1",
+        
         "wpackagist-plugin/smtp-mailer":"~1",
 
         "predis/predis": "~1",
