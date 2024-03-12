@@ -14,9 +14,6 @@
  * @package WordPress
  */
 
-// Setup autoload
-require '/app/vendor/autoload.php';
-
 // Disable filesystem level changes from WP
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
