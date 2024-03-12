@@ -36,8 +36,9 @@ On Heroku, there is a hook found in the `composer.json` file that runs `./suppor
   * 3/12/24 1:30PM - Uploads don't actually work :(
 * [Contact Form 7](https://github.com/rocklobster-in/contact-form-7) has a conflict, however, with S3-Uploads@1.1.
   * When the `wpcf7_cleanup_upload_files` [hook runs](https://github.com/rocklobster-in/contact-form-7/blob/dev/5.8/includes/file.php#L346), it's trying to delete attachments in the contact form.  The S3-Uploads plugin overwrites all files and interjects it with a url from s3.  Contact Form 7 doesn't know how to handle that and crashes (`359` is the crash, `349-353` is the check that should catch this).  This as a consequence was causing Jetpack to have conflicts and not work as well.
-  * The temporary solution was to overwrite `public/wp-content/plugins/contact-form-7/includes/file.php` with a `return` during the `wpcf7_cleanup_upload_files` function, since we are currently NOT using file uploads in our contact us form.  We make use of the fact that when `./support/app_slug_compile.sh` on deployment copies overtop `public.built` the contents of `public`.  Therefore, we just copy the version of `file.php` from [Contact Form 7](https://github.com/rocklobster-in/contact-form-7).
+  * The temporary solution is to overwrite `public/wp-content/plugins/contact-form-7/includes/file.php` with a `return` during the `wpcf7_cleanup_upload_files` function, since we are currently NOT using file uploads in our contact us form.  We make use of the fact that when `./support/app_slug_compile.sh` on deployment copies overtop `public.built` the contents of `public`.  Therefore, we just copy the version of `file.php` from [Contact Form 7](https://github.com/rocklobster-in/contact-form-7).
 * If something seems to be outdated / broken, double check other forks to see if anyone has made any changes worth combing through.
+  * We can search https://wpackagist.org/search to search for plugins.
 * Heroku boots Word Press with `sh support/app_boot.sh`, located in the `Procfile`.  This seems to setup the mysql certs and servers `public.built` with `vendor/bin/heroku-php-nginx`.
 
 ## MySQL

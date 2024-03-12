@@ -24,13 +24,13 @@
         "humanmade/s3-uploads": "~1",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/smtp-mailer":"~1",
-
-        "predis/predis": "~1",
-        "wp-cli/wp-cli-bundle": "*",
         "wpackagist-plugin/contact-form-7": "^5.8",
         "wpackagist-plugin/classic-editor": "^1.6",
         "wpackagist-plugin/display-posts-shortcode": "^3.0",
-        "wpackagist-plugin/wordpress-importer": "^0.8"
+        "wpackagist-plugin/wordpress-importer": "^0.8",
+
+        "predis/predis": "~1",
+        "wp-cli/wp-cli-bundle": "*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
