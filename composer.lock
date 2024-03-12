@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78db42c242f2fb28b7c351588dd6b475",
+    "content-hash": "c13e1f0666a87bbd02e24e31da4771a3",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -4824,16 +4824,34 @@
             "time": "2023-11-10T14:28:03+00:00"
         },
         {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "5.9",
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/5.9"
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.9.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4861,15 +4879,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "13.2",
+            "version": "13.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/13.2"
+                "reference": "tags/13.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.13.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/jetpack.13.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

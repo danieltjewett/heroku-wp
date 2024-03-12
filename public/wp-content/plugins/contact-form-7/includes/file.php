@@ -34,13 +34,15 @@ function wpcf7_unship_uploaded_file( $file, $args = '' ) {
 	}
 
 	if ( isset( $args['schema'] ) and isset( $args['name'] ) ) {
-		$result = $args['schema']->validate( array(
+		$context = array(
 			'file' => true,
 			'field' => $args['name'],
-		) );
+		);
 
-		if ( is_wp_error( $result ) ) {
-			return $result;
+		foreach ( $args['schema']->validate( $context ) as $result ) {
+			if ( is_wp_error( $result ) ) {
+				return $result;
+			}
 		}
 	}
 
@@ -346,7 +348,7 @@ add_action(
 function wpcf7_cleanup_upload_files( $seconds = 60, $max = 100 ) {
 	$dir = trailingslashit( wpcf7_upload_tmp_dir() );
 
-	return;
+	return; //Return for now, we don't have file uploads, and this breaks s3-uploads
 
 	$seconds = absint( $seconds );
 	$max = absint( $max );
