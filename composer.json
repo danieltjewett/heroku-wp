@@ -21,7 +21,7 @@
         "wpackagist-plugin/redis-cache": "~1",
         "wpackagist-plugin/secure-db-connection": "~1",
 
-        "humanmade/s3-uploads": "~3",
+        "wpackagist-plugin/wp-s3-smart-upload":"~1",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/smtp-mailer":"~1",
 
