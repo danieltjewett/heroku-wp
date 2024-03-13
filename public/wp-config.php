@@ -17,9 +17,9 @@
 echo "TEST";
 
 // Setup autoload
-require '/app/vendor/autoload.php';
-
-die("DONE");
+//require '/app/vendor/autoload.php';
+echo file_exists('/app/vendor/autoload.php');
+require_once __DIR__ . '/vendor/autoload.php';
 
 // Disable filesystem level changes from WP
 define( 'DISALLOW_FILE_EDIT', true );
