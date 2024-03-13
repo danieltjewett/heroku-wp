@@ -8,6 +8,10 @@ mkdir -p tmp/public.building
 cp -R vendor/wordpress/wordpress/* tmp/public.building
 cp -R public/* tmp/public.building
 
+# Deal with humanmade/s3-uploads nonsense
+# Update name in .slugignore
+unzip support/s3-uploads@3.0.7.zip -d tmp/public.building/wp-content/plugins/s3-uploads
+
 # Move built web dir into place
 mkdir -p public.built
 mv public.built tmp/public.old && mv tmp/public.building public.built

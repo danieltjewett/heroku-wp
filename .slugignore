@@ -2,5 +2,6 @@
 bin/
 LICENSE
 README.md
+support/s3-uploads@3.0.7.zip
 support/vagrant/
 Vagrantfile
