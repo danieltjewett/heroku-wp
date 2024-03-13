@@ -14,6 +14,13 @@
  * @package WordPress
  */
 
+echo "TEST";
+
+// Setup autoload
+require '/app/vendor/autoload.php';
+
+die("DONE");
+
 // Disable filesystem level changes from WP
 define( 'DISALLOW_FILE_EDIT', true );
 define( 'DISALLOW_FILE_MODS', true );
