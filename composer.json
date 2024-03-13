@@ -21,7 +21,7 @@
         "wpackagist-plugin/redis-cache": "~1",
         "wpackagist-plugin/secure-db-connection": "~1",
 
-        
+        "humanmade/s3-uploads": "~3",
         "wpackagist-plugin/jetpack": "*",
         "wpackagist-plugin/smtp-mailer":"~1",
         "wpackagist-plugin/contact-form-7": "^5.8",
@@ -67,6 +67,9 @@
                 "automattic/batcache",
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
+            ],
+            "public.built/wp-content/plugins/s3-uploads/inc/": [
+                "humanmade/s3-uploads"
             ],
             "vendor/wordpress/wordpress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
             "vendor/wordpress/wordpress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
