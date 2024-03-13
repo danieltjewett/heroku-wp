@@ -61,6 +61,11 @@
             "url": "https://wp-cli.org/package-index"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "S3_Uploads\\": "/app/public.built/wp-content/plugins/s3-uploads/inc/"
+        }
+    },
     "extra": {
         "installer-paths": {
             "vendor/wordpress/wordpress/wp-content/mu-plugins/{$name}/": [
