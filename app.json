@@ -79,7 +79,7 @@
   },
   "addons": [
     {
-      "plan": "heroku-redis:hobby-dev"
+      "plan": "heroku-redis:mini"
     },
     {
       "plan": "jawsdb-maria:kitefin",
@@ -89,5 +89,5 @@
       "plan": "newrelic:wayne"
     }
   ],
-  "stack": "heroku-20"
+  "stack": "heroku-22"
 }
