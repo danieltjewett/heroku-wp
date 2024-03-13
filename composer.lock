@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3adb623b41bd48176c35b0d666463b88",
+    "content-hash": "96d1592d1d781580a33ac60a7553758f",
     "packages": [
         {
             "name": "automattic/batcache",

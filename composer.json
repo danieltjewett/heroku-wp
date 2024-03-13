@@ -30,8 +30,7 @@
         "wpackagist-plugin/wordpress-importer": "^0.8",
 
         "predis/predis": "~1",
-        "wp-cli/wp-cli-bundle": "*",
-        "aws/aws-sdk-php": "*"
+        "wp-cli/wp-cli-bundle": "*"
     },
     "suggest": {
         "wpackagist-plugin/cloudflare-cache-purge": "Purges cached pages on CF.",
