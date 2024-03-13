@@ -68,11 +68,11 @@
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
             ],
-            "public.built/wp-content/plugins/s3-uploads/": [
-                "humanmade/s3-uploads"
-            ],
             "vendor/wordpress/wordpress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
-            "vendor/wordpress/wordpress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ]
+            "vendor/wordpress/wordpress/wp-content/themes/{$name}/": [ "type:wordpress-theme" ],
+            "public.built/wp-content/plugins/{$name}/": [
+                "humanmade/s3-uploads"
+            ]
         }
     },
     "scripts": {
