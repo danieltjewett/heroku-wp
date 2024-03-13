@@ -68,7 +68,7 @@
                 "wpackagist-plugin/redis-cache",
                 "wpackagist-plugin/secure-db-connection"
             ],
-            "public.built/wp-content/plugins/s3-uploads/inc/": [
+            "public.built/wp-content/plugins/s3-uploads/": [
                 "humanmade/s3-uploads"
             ],
             "vendor/wordpress/wordpress/wp-content/plugins/{$name}/": [ "type:wordpress-plugin" ],
