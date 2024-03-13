@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b014afbd33bee081a2f71986a07cf375",
+    "content-hash": "be472a063e67814ade152d795a62cb1a",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -1507,33 +1507,23 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "3.0.7",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/humanmade/S3-Uploads.git",
-                "reference": "b65f2c73ca8b248232407bbe0db93e6b728ed0ee"
+                "reference": "3b995ba6d1ccde4354efb9564c3e244f871bbcda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/b65f2c73ca8b248232407bbe0db93e6b728ed0ee",
-                "reference": "b65f2c73ca8b248232407bbe0db93e6b728ed0ee",
+                "url": "https://api.github.com/repos/humanmade/S3-Uploads/zipball/3b995ba6d1ccde4354efb9564c3e244f871bbcda",
+                "reference": "3b995ba6d1ccde4354efb9564c3e244f871bbcda",
                 "shasum": ""
             },
             "require": {
                 "aws/aws-sdk-php": "~3.18",
-                "composer/installers": "~1.0 || ^2.0"
-            },
-            "require-dev": {
-                "humanmade/psalm-plugin-wordpress": "^1.0",
-                "pcov/clobber": "^2.0",
-                "phpunit/phpunit": "7.5"
+                "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "autoload": {
-                "classmap": [
-                    "./inc"
-                ]
-            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
@@ -1554,7 +1544,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2023-05-04T08:22:25+00:00"
+            "time": "2021-03-18T10:55:13+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
