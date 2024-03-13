@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cfdc4e9b41da0ead9b9e03c87ebc51d",
+    "content-hash": "b7b1630c90d85d7c371449694e22bc68",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -4872,24 +4872,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
-        },
-        {
-            "name": "wpackagist-plugin/secure-db-connection",
-            "version": "1.1.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/secure-db-connection/",
-                "reference": "tags/1.1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/secure-db-connection.1.1.6.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/secure-db-connection/"
         },
         {
             "name": "wpackagist-plugin/smtp-mailer",

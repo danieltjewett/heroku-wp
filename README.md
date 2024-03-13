@@ -4,7 +4,7 @@ The forked repo is old, and isn't making updates.  See https://github.com/xyu/he
 
 Just use this button below:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/danieltjewett/heroku-wp/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/danieltjewett/heroku-wp/tree/major-updates)
 
 There are a couple of gotchas:
 
