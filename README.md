@@ -37,6 +37,8 @@ On Heroku, there is a hook found in the `composer.json` file that runs `./suppor
   * The solution for now is to use [manual-install.zip](https://github.com/humanmade/S3-Uploads/releases/download/3.0.7/manual-install.zip) from version 3 as a zip in this repo.
     * This is stored as a zip in `support/s3-uploads@3.0.7.zip`, and `./support/app_slug_compile.sh` extracts and installs into `tmp/public.building/wp-content/plugins/s3-uploads`, which gets copied to the correct place in the remainder part of `./support/app_slug_compile.sh`.
     * The problem with this approach, is tha it is cumbersome (i.e. not managing dependencies through `composer.json`, and that [humanmade will no longer be supporting the manual install method](https://github.com/humanmade/S3-Uploads/issues/644).
+* [automattic/batcache](https://github.com/Automattic/batcache) has been switched back to the original, not the fork from https://github.com/xyu/batcache.
+  * We also changed from `predis/predis` to `phpredis` (`ext-redis`).
 * If something seems to be outdated / broken, double check other forks to see if anyone has made any changes worth combing through.
   * We can search https://wpackagist.org/search to search for plugins.
 * Heroku boots Word Press with `sh support/app_boot.sh`, located in the `Procfile`.  This seems to setup the mysql certs and servers `public.built` with `vendor/bin/heroku-php-nginx`.
