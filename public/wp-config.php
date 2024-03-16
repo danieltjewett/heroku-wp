@@ -35,7 +35,7 @@ if ( !empty( $_ENV['REDIS_URL'] ) ) {
 	$_redissettings = parse_url( $_ENV['REDIS_URL'] );
 
 	define( 'WP_CACHE', true );
-	define( 'WP_REDIS_CLIENT',   'predis'                  );
+	define( 'WP_REDIS_CLIENT',   'redis'                  );
 	define( 'WP_REDIS_SCHEME',   $_redissettings['scheme'] );
 	define( 'WP_REDIS_HOST',     $_redissettings['host']   );
 	define( 'WP_REDIS_PORT',     $_redissettings['port']   );
