@@ -40,10 +40,10 @@
             "type": "package",
             "package": {
                 "name": "wordpress/wordpress",
-                "version": "6.4.3",
+                "version": "7.0.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/wordpress/wordpress/archive/6.4.3.zip"
+                    "url": "https://github.com/wordpress/wordpress/archive/7.0.1.zip"
                 }
             }
         },

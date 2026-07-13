@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6edb1c3200cc7d78bcee05b4029c0611",
+    "content-hash": "fea1702b434430e8871738cf2796b39e",
     "packages": [
         {
             "name": "automattic/batcache",
@@ -2835,10 +2835,10 @@
         },
         {
             "name": "wordpress/wordpress",
-            "version": "6.4.3",
+            "version": "7.0.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/wordpress/wordpress/archive/6.4.3.zip"
+                "url": "https://github.com/wordpress/wordpress/archive/7.0.1.zip"
             },
             "type": "library"
         },
