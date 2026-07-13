@@ -14,7 +14,7 @@
     "require": {
         "ext-gd": "*",
         "ext-redis": "*",
-        "php": "^8.1.0",
+        "php": "^8.5.0",
 
         "wordpress/wordpress": "*",
 
